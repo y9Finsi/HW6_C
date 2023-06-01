@@ -10,8 +10,7 @@ int sumDigits(int *num) {
 
 int main() {
     int num;
-    // ваодим число
-    scanf("%d", &num);
+    scanf("%d", &num); // ваодим число
     printf("%d", sumDigits(&num)); // вызываем функцию и выводим значение
     return 0;
 }
